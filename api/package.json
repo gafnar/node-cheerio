@@ -1,0 +1,34 @@
+{
+  "name": "nodeCheerio",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cheerio": "~1.0.0-rc.2",
+    "connect-multiparty": "^2.1.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "^4.16.2",
+    "http-errors": "~1.6.2",
+    "jwt-simple": "^0.5.1",
+    "mocha": "6.0.1",
+    "moment": "^2.20.1",
+    "mongoose": "^5.4.14",
+    "mongoose-pagination": "^1.0.0",
+    "morgan": "~1.9.0",
+    "q": "^1.5.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
